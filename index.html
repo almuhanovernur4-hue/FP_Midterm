@@ -1,33 +1,117 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music WRLD - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-hud fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MUSIC // WRLD</a>
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="artists.html">Artists</a></li>
+          <li class="nav-item"><a class="nav-link" href="charts.html">Charts</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+<main class="container py-5 mt-5">
+  <!-- Hero Section -->
+  <section class="row align-items-center py-5">
+    <div class="col-lg-7 text-center text-lg-start">
+      <span class="badge mb-3 px-3 py-2" style="background: rgba(168, 85, 247, 0.15); border: 1px solid var(--border-hud); color: #c084fc; border-radius: 20px;">HUD AUDIO HUB v3.0</span>
+      <h1 class="display-3 fw-bold mb-3">Immersive Music <span style="color: var(--purple-primary); text-shadow: 0 0 20px var(--purple-glow);">Discovery</span></h1>
+      <p class="text-muted lead mb-4">Explore deep underground frequencies, artist retrospectives, real-time telemetry charts, and curated editorial articles in a futuristic interface.</p>
+      <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+        <a href="charts.html" class="btn btn-hud">View Charts</a>
+        <a href="artists.html" class="btn btn-outline-hud">Explore Artists</a>
+      </div>
+    </div>
+    <div class="col-lg-5 mt-5 mt-lg-0">
+      <div class="hud-card p-4">
+        <h3 class="h4 mb-3 text-center" style="color: var(--purple-primary);">SYSTEM TELEMETRY</h3>
+        <div class="d-flex justify-content-between py-2 border-bottom" style="border-color: var(--border-hud) !important;">
+          <span class="text-muted">Active Nodes</span>
+          <strong class="text-white">3,120,490</strong>
+        </div>
+        <div class="d-flex justify-content-between py-2 border-bottom" style="border-color: var(--border-hud) !important;">
+          <span class="text-muted">Audio Quality</span>
+          <strong class="text-white">Lossless [FLAC 24-bit]</strong>
+        </div>
+        <div class="d-flex justify-content-between py-2">
+          <span class="text-muted">Network Status</span>
+          <strong style="color: #4ade80;">Online [99.99%]</strong>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Editorial Articles Section -->
+  <section class="py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="h3 mb-0" style="color: var(--purple-primary);">Latest Articles & Editorial</h2>
+      <a href="#" class="text-muted small text-decoration-none">View All Articles →</a>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="hud-card h-100">
+          <div class="article-thumb">
+            <span class="badge bg-purple position-absolute top-0 start-0 m-3" style="background: var(--purple-primary) !important;">Culture</span>
+            <span class="font-monospace text-muted small">01 OCT 2026</span>
+          </div>
+          <div class="p-4">
+            <h3 class="h5">The Evolution of Melodic Rap</h3>
+            <p class="text-muted small mb-3">How underground SoundCloud movements and emotional lyricism shaped modern global charts.</p>
+            <a href="#" class="text-decoration-none fw-bold" style="color: var(--purple-primary); font-size: 0.9rem;">Read Full Article →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="hud-card h-100">
+          <div class="article-thumb">
+            <span class="badge position-absolute top-0 start-0 m-3" style="background: var(--purple-primary) !important;">Technology</span>
+            <span class="font-monospace text-muted small">28 SEP 2026</span>
+          </div>
+          <div class="p-4">
+            <h3 class="h5">Cyberpunk Soundscapes in 2026</h3>
+            <p class="text-muted small mb-3">An in-depth look at how synthetic basslines and atmospheric synths dominate digital audio design.</p>
+            <a href="#" class="text-decoration-none fw-bold" style="color: var(--purple-primary); font-size: 0.9rem;">Read Full Article →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="hud-card h-100">
+          <div class="article-thumb">
+            <span class="badge position-absolute top-0 start-0 m-3" style="background: var(--purple-primary) !important;">Analysis</span>
+            <span class="font-monospace text-muted small">25 SEP 2026</span>
+          </div>
+          <div class="p-4">
+            <h3 class="h5">Decoding Global Stream Metrics</h3>
+            <p class="text-muted small mb-3">Understanding how real-time network telemetry ranks the top trending tracks across regional nodes.</p>
+            <a href="#" class="text-decoration-none fw-bold" style="color: var(--purple-primary); font-size: 0.9rem;">Read Full Article →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="py-4 text-center text-muted small mt-5">
+  <div class="container">&copy; 2026 Music WRLD.</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
